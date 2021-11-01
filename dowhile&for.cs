@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace estudandocsharp
+namespace estudandocsharp3
 {
     class Program
     {
@@ -11,8 +11,14 @@ namespace estudandocsharp
             {
                 Console.WriteLine(a);
                 a++;
+            } 
+            while (a < 3);
+
+            for (int x = 0; x < 3; x++)
+            {
+                Console.WriteLine(x);
             }
-            while (a < 3)
         }
     }
 }
+ 
