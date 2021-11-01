@@ -6,24 +6,28 @@ namespace estudandocsharp
     {
         static void Main(string[] args)
         {
-            var i = 4;
+           var a = 4;
 
-            if (i == 1)
+            if (a == 1)
             {
-                Console.WriteLine("Sou igual ao número 1.");
+                Console.WriteLine("entrou na condição do if");
             }
-            else if (i == 2)
+            else if (a == 2)
             {
-                Console.WriteLine("Sou igual ao número 2.");
+                Console.WriteLine("entrou na condição 2");
             }
-            else if (i == 3)
+            else if (a == 3)
             {
-                Console.WriteLine("Sou igual ao número 3.");
+                Console.WriteLine("entrou na condição 3");
             }
             else
             {
-                Console.WriteLine("Deu nenhum dos números.");
+                Console.WriteLine("entrou na condição do else");
             }
+
+            var x = 2;
+            string xy = (x == 1 + 1 ? "sim" : "não");
+            Console.WriteLine(xy);
         }
     }
 }
