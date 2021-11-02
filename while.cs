@@ -6,15 +6,12 @@ namespace estudandocsharp4
     {
         static void Main(string[] args)
         {
-            int[] a = { 1, 2, 3 };
-            foreach(int v in a)
-            {
-                Console.WriteLine(v);
-            }
+            var a = 1;
 
-            for (int i = 0; i < a.Length; i++)
+            while (a < 10)
             {
-                Console.WriteLine(a[i]);
+                Console.WriteLine(a);
+                a++;
             }
         }
     }
